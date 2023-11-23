@@ -1,0 +1,23 @@
+{
+  "name": "testing-cart-abandoment",
+  "version": "1.0.0",
+  "description": "testing cart abandoment whatsapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && cucumber-js features"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@types/chai": "^4.3.9",
+    "@types/node": "^20.9.3",
+    "@types/selenium-webdriver": "^4.1.19",
+    "chai": "^4.3.10",
+    "chromedriver": "^119.0.1",
+    "csv-parser": "^3.0.0",
+    "selenium-webdriver": "^4.14.0",
+    "typescript": "^5.2.2",
+    "xlsx": "^0.18.5"
+  }
+}
